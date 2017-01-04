@@ -22,5 +22,7 @@ public:
 	//Start the tyank moving the barrel so that a shot would hit it where
 	//the crosshair intersects the world.
 	void AimTowardsCrosshair();
+
+	bool GetSightRayHitLocation(FVector &HitLocation)const;
 	
 };
